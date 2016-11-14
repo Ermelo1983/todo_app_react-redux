@@ -4,8 +4,9 @@
   "description": "\"a tutorial to do app for understanding react-redux\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+},
   "keywords": [
     "[",
     "\"todo\"}"
