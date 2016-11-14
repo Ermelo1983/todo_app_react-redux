@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "\"a tutorial to do app for understanding react-redux\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[",
+    "\"todo\"}"
+  ],
+  "author": "\"me\"",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
