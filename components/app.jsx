@@ -7,7 +7,7 @@ import Todos from './todos'
 let reactElement = document.getElementById('react')
 render(
   <Provider store={store}>
-    <Todos />
+  <Todos />
   </Provider>,
   reactElement
 )

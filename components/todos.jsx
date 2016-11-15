@@ -1,21 +1,21 @@
 import React from 'react'
 import { connect } from 'react-redux'
-
+import { Keys } from 'react-keys'
 import NewTodo from './NewTodo'
-import { addTodo } from '../actions/index'
+import { addTodo, deleteTodo } from '../actions'
 
 const Todos =({todos, dispatch}) => (
   <div>
   <h1>Todos</h1>
   <NewTodo onChange={e => {
-    if(e.keycode == 13){
+    if(e.keyCode == 13){
       dispatch(addTodo(e.target.value))
     e.target.value = ''
     }
   }}/>
-{todos.map(todo => <p key={todo}>{todo} <button onClick={e => {
+{todos.map((todo, index) => <p key={todo}>{todo} <button onClick={e => {
   dispatch(deleteTodo(index))
-}}>X</button></p>)}
+}}>Delete me</button></p>)}
   </div>
 )
 
