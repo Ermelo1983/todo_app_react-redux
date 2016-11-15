@@ -1,28 +1,33 @@
 {
   "name": "todo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "\"a tutorial to do app for understanding react-redux\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "start": "webpack-dev-server"
-},
+  },
+
   "keywords": [
-    "[",
+    "",
     "\"todo\"}"
   ],
+
   "author": "\"me\"",
   "license": "ISC",
   "dependencies": {
-    "babel-core": "^6.18.2",
-    "babel-loader": "^6.2.7",
-    "babel-preset-react": "^6.16.0",
-    "immutable": "^3.8.1",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-redux": "^4.4.6",
-    "redux": "^3.6.0",
-    "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2"
-  }
+  "immutable": "^3.7.5",
+  "react": "^0.14.2",
+  "react-dom": "^0.14.2",
+  "react-redux": "^4.0.0",
+  "redux": "^3.0.4",
+  "webpack": "^1.12.6",
+  "webpack-dev-server": "^1.12.1"
+},
+"devDependencies": {
+  "babel-core": "^6.1.21",
+  "babel-loader": "^6.2.0",
+  "babel-preset-es2015": "^6.1.18",
+  "babel-preset-react": "^6.1.18"
+}
 }
